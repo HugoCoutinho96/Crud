@@ -8,7 +8,7 @@ const headerProps = {
     subtitle: "Cadastro de Usuários: Incluir, Listar, Alterar e Excluir"
 }
 
-const baseUrl = "http://localhost:3001/users"
+const baseUrl = "https://crud-basico-server.herokuapp.com/users"
 const initialState = {
     user: {name: "", email: ""},
     list: []
